@@ -1,0 +1,72 @@
+.slot-container{
+    flex:1;
+    padding:30px;
+}
+
+.slot-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.slot-search{
+    display:flex;
+    gap:15px;
+    margin-bottom:20px;
+}
+
+.slot-search input{
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+.slot-table{
+    width:100%;
+    border-collapse:collapse;
+    background:#fff;
+}
+
+.slot-table th{
+    background:#1976d2;
+    color:white;
+    padding:12px;
+}
+
+.slot-table td{
+    padding:12px;
+    text-align:center;
+    border-bottom:1px solid #ddd;
+}
+
+.available{
+    color:green;
+    font-weight:bold;
+}
+
+.booked{
+    color:red;
+    font-weight:bold;
+}
+
+.back-btn,
+.search-btn{
+    background:#1976d2;
+    color:white;
+    border:none;
+    padding:10px 18px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.back-btn:hover,
+.search-btn:hover{
+    background:#125ea7;
+}
+
+.no-data{
+    text-align:center;
+    font-weight:bold;
+    color:red;
+}
